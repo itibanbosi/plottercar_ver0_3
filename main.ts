@@ -1,4 +1,4 @@
-let wait=2;
+let wait=1;
 enum pen_onoff {
   上げる,
   下げる,
@@ -101,7 +101,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 1);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 1);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -110,7 +110,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 1);
       pins.digitalWritePin(DigitalPin.P4, 1);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -119,7 +119,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 1);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 0);
       pins.digitalWritePin(DigitalPin.P4, 1);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -128,7 +128,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 1);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 1);
       pins.digitalWritePin(DigitalPin.P4, 1);
       pins.digitalWritePin(DigitalPin.P6, 1);
@@ -137,7 +137,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 1);
       pins.digitalWritePin(DigitalPin.P15, 1);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 0);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 1);
@@ -146,7 +146,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 1);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 0);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 1);
@@ -155,7 +155,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 1);
       pins.digitalWritePin(DigitalPin.P16, 1);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 0);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -164,7 +164,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 1);
-      basic.pause(10);
+      basic.pause(wait);
     }
   }
 
@@ -193,7 +193,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 1);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 0);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 1);
@@ -202,7 +202,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 1);
       pins.digitalWritePin(DigitalPin.P16, 1);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 0);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 1);
@@ -211,7 +211,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 1);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 1);
       pins.digitalWritePin(DigitalPin.P4, 1);
       pins.digitalWritePin(DigitalPin.P6, 1);
@@ -220,7 +220,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 1);
       pins.digitalWritePin(DigitalPin.P15, 1);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 0);
       pins.digitalWritePin(DigitalPin.P4, 1);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -229,7 +229,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 1);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 1);
       pins.digitalWritePin(DigitalPin.P4, 1);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -238,7 +238,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 1);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 1);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -247,7 +247,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 0);
-      basic.pause(10);
+      basic.pause(wait);
       pins.digitalWritePin(DigitalPin.P3, 1);
       pins.digitalWritePin(DigitalPin.P4, 0);
       pins.digitalWritePin(DigitalPin.P6, 0);
@@ -256,7 +256,7 @@ namespace eureka_plotter_car {
       pins.digitalWritePin(DigitalPin.P14, 0);
       pins.digitalWritePin(DigitalPin.P15, 0);
       pins.digitalWritePin(DigitalPin.P16, 1);
-      basic.pause(10);
+      basic.pause(wait);
     }
   }
 
