@@ -1,4 +1,4 @@
-let wait=1;
+let wait=0;
 enum pen_onoff {
   上げる,
   下げる,
@@ -265,7 +265,7 @@ namespace eureka_plotter_car {
   export function plottercar_pen(mode: pen_onoff) {
         if (mode == pen_onoff.下げる) {
      　　pins.servoWritePin(AnalogPin.P2, 0);
-         basic.pause(500);
+         basic.pause(1000);
         }
         if (mode == pen_onoff.上げる) {
      　　pins.servoWritePin(AnalogPin.P2, 90);  
