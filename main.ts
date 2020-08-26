@@ -264,10 +264,12 @@ namespace eureka_plotter_car {
   //% color="#525252" weight=18 blockId=eureka_relay block="ペン |%mode| " group="4_ペンの状態"
   export function plottercar_pen(mode: pen_onoff) {
         if (mode == pen_onoff.下げる) {
-     　　pins.servoWritePin(AnalogPin.P2, 0)
+     　　pins.servoWritePin(AnalogPin.P2, 0);
+         basic.pause(500);
         }
         if (mode == pen_onoff.上げる) {
-     　　pins.servoWritePin(AnalogPin.P2, 90)  
+     　　pins.servoWritePin(AnalogPin.P2, 90);  
+         basic.pause(100);
         }
 
     }
